@@ -17,3 +17,7 @@ Modify image of roundcube in `php-fpm/Dockerfile`
 # Start:
 
 `docker-compose up` with any extra flags you like (`docker compose` should work too)
+
+# Debug with vscode
+
+Use vscode and open this whole folder. `docker-compose.yml` uses volumes to mount source code inside docker.
